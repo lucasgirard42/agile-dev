@@ -20,18 +20,18 @@
       <nav>
         <div class="nav-wrapper">
           <img src="img/logo_application.png" class="logo">
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a href="#ios" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Google</a></li>
-            <li><a href="badges.html">Apple</a></li>
-            <li><a class="waves-effect waves-light btn">button</a></li>
+            <li><a href="#android">Google</a></li>
+            <li><a href="#ios">Apple</a></li>
+            <li><a href="#ios" class="waves-effect waves-light btn">button</a></li>
           </ul>
         </div>
       </nav>
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Google</a></li>
-        <li><a href="badges.html">Apple</a></li>
-        <li><a class="waves-effect waves-light btn">button</a></li>
+        <li><a href="#android">Google</a></li>
+        <li><a href="#ios">Apple</a></li>
+        <li><a href="#ios" class="waves-effect waves-light btn">button</a></li>
       </ul>
     </div>
   </div>
@@ -42,8 +42,8 @@
         <h4>Une appli incroyable</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero consequatur, officiis maiores quod nobis minus assumenda aliquam voluptatem beatae esse adipisci odio nam. Delectus aspernatur eligendi ullam voluptatem est beatae?</p>
         <div class="flex">
-          <h1 class="logoiosplay"><a href="https://play.google.com/store?hl=en"><img src="img/download_android.png" alt=""></a></h1>
-          <h1 class="logoiosplay"><a href="https://www.apple.com/"><img src="img/download_ios.png" alt=""></a></h1>
+          <h1 class="logoiosplay"><a href="https://play.google.com/store?hl=en"><img src="img/download_android.png" alt="android"></a></h1>
+          <h1 class="logoiosplay"><a href="https://www.apple.com/"><img src="img/download_ios.png" alt="ios"></a></h1>
         </div>
       </div>
       <div class="col s6">
@@ -60,14 +60,14 @@
       <div class="col s6">
         <h4>Je remplace tout le texte de Raph héhé</h4>
         <p>J'ai le droit, c'est moi qui m'occupe de cette nouvelle itération sur Trello, muahahahahahaha. Ce rire maléfique est copyrighté. Je vais donc utilisé mon ricanement méprisant à la place. Fufufufu!</p>
-        <a class="waves-effect waves-light btn">El button!</a>
+        <a href="#android" class="waves-effect waves-light btn">Pour Android!</a>
       </div>
     </div>
     <div class="row">
       <div class="col s6 right-align">
         <h4>Je remplace tout le texte de Raph héhé</h4>
         <p>J'ai le droit, c'est moi qui m'occupe de cette nouvelle itération sur Trello, muahahahahahaha. Ce rire maléfique est copyrighté. Je vais donc utilisé mon ricanement méprisant à la place. Fufufufu!</p>
-        <a class="waves-effect waves-light btn">El button!</a>
+        <a href="#ios" class="waves-effect waves-light btn">Pour IOS!</a>
       </div>
       <div class="col s6 center-align">
         <img width="135" src="img/iphone_side_light.png">
@@ -100,8 +100,8 @@
         <h2>Cette nouvelle appli roxx</h2>
         <p>Vous aussi, devenez un roxxor. Ou devenez un support. Sérieusement, on a besoin de supports. Ou un tank, c'est bien aussi. Mais surtout des supports.</p>
           <div class="flex">
-            <h1 class="logoiosplay"><a href="https://play.google.com/store?hl=en"><img src="img/download_android.png" alt=""></a></h1>
-            <h1 class="logoiosplay"><a href="https://www.apple.com/"><img src="img/download_ios.png" alt=""></a></h1>
+            <h1 class="logoiosplay"><a href="https://play.google.com/store?hl=en"><img src="img/download_android.png" alt="android" id="android"></a></h1>
+            <h1 class="logoiosplay"><a href="https://www.apple.com/"><img src="img/download_ios.png" alt="ios" id="ios"></a></h1>
           </div>
       </div>
       <div class="col s6 center-align">
@@ -152,6 +152,7 @@
 
 <!--Import materialize.js - JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 <!--Import your custom.js-->
 <script type="text/javascript" src="js/custom.js"></script>
 </body>
